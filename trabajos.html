@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Casos de éxito y alumnos farmeados en la Academia de Aura">
+    <title>Casos de Éxito | Academia de Aura</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabecera idéntica para mantener la navegación -->
+    <header>
+        <div id="logo-container">
+            <!-- La etiqueta <a> envuelve la imagen y el h1 para hacerlos clickeables -->
+            <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
+                <img src="img/logo.jpg" alt="Logo Pájaro Mamado" width="60" style="border-radius: 50%;">
+                <h1 style="color: inherit; margin: 0;">Academia de Aura</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="equipo.html">Staff</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="trabajos.html">Casos de Éxito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Sección principal de Trabajos (Mínimo 5 casos exigidos) -->
+    <section id="portfolio-alumnos" style="margin-top: 100px;">
+        <h2>Base de Datos: Alumnos Farmeados</h2>
+        <p>El antes y después de quienes confiaron en el método "y si no quiero q".</p>
+        
+        <div class="tira-contenedor">
+            
+            <!-- Caso 1 -->
+            <article class="ficha-alumno">
+                <h3>CASO #004: Matías "NPC" López</h3>
+                <div class="antes-despues">
+                    <p><strong>Antes:</strong> Entraba a una sala y nadie lo notaba.</p>
+                    <p><strong>Después:</strong> Entra y automáticamente suena música épica.</p>
+                </div>
+                <div class="stats">
+                    <!-- Uso de la etiqueta meter para representar medidas -->
+                    <label>Aura</label>
+                    <meter min="0" max="100" value="82" high="80"></meter> <span>82%</span>
+                    
+                    <label>Rizz</label>
+                    <meter min="0" max="100" value="71"></meter> <span>71%</span>
+                    
+                    <label>Presencia</label>
+                    <meter min="0" max="100" value="94" high="90"></meter> <span>94%</span>
+                </div>
+                <p class="estado"><strong>ESTADO:</strong> MODO DIOS</p>
+            </article>
+
+            <!-- Caso 2: El Alumno Imposible -->
+            <article class="ficha-alumno imposible">
+                <h3>CASO #999: Agustín "Sin Aura" Gómez</h3>
+                <div class="antes-despues">
+                    <p><strong>Antes:</strong> Pedía permiso para mandar un sticker en WhatsApp.</p>
+                    <p><strong>Después:</strong> El grupo le pide permiso a él para existir.</p>
+                </div>
+                <div class="stats">
+                    <label>Aura Inicial</label>
+                    <meter min="0" max="100" value="0"></meter> <span>0%</span>
+                    
+                    <label>Aura Actual</label>
+                    <meter min="0" max="100" value="100" high="90"></meter> <span>ERROR: OVER 9000</span>
+                </div>
+                <p class="estado error"><strong>ESTADO:</strong> PELIGRO DE COLAPSO DE AURA</p>
+            </article>
+
+            <!-- Acá puedes clonar el <article> 3 veces más para cumplir con los 5 trabajos mínimos -->
+            <!-- Ejemplos: Brian "Visto" Rodríguez, Ezequiel "Modo Avión" Díaz, y el "Que vino por error" -->
+
+        </div>
+    </section>
+
+<!-- SECCIÓN DE VIDEOS: Archivos Clasificados -->
+    <section id="archivos-video" style="margin-top: 50px; margin-bottom: 80px;">
+        <h2>Archivos Clasificados</h2>
+        <p class="bajada-servicios" style="color: #ccc; margin-bottom: 30px;">Material audiovisual de nuestros alumnos en pleno farmeo de aura.</p>
+
+        <!-- Video 1: Compilación de Batallas -->
+        <article class="video-card">
+            <h3>⚔️ Análisis de Combate: Batallas de Aura</h3>
+            <p>Casos de estudio de enfrentamientos reales. Observá la técnica, el contacto visual y la postura de los participantes.</p>
+            <div class="video-wrapper">
+                <iframe width="1059" height="595" src="https://www.youtube.com/embed/Sp-lDRyiQlQ" title="Compilación Batallas de Farmear Aura 😱😱" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </article>
+
+        <!-- Video 2: Entrevista al Campeón -->
+        <article class="video-card campeon">
+            <h3>🏆 Caso de Éxito Supremo: El Primer Campeón</h3>
+            <p>Compró nuestro paquete "Sigma Strategy" y hoy es el indiscutido campeón argentino de farmear aura. Escuchá sus secretos.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/a32oAJq21l0" title="Primer campeón argentino de farmear aura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </article>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Academia de Aura. Todos los derechos reservados.</p>
+        <p>Contacto: farmear@aura.com | Tel: +54 9 11 1234-5678</p>
+    </footer>
+
+</body>
+</html>

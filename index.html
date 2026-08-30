@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Academia de Aura - Entrenamos personas. Maximizamos aura.">
+    <title>Home | Academia de Aura</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabecera y Navegación[cite: 1, 3] -->
+    <header>
+        <div id="logo-container">
+            <!-- La etiqueta <a> envuelve la imagen y el h1 para hacerlos clickeables -->
+            <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
+                <img src="img/logo.jpg" alt="Logo Pájaro Mamado" width="60" style="border-radius: 50%;">
+                <h1 style="color: inherit; margin: 0;">Academia de Aura</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="equipo.html">Staff</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="trabajos.html">Casos de Éxito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- 1. HERO / PRESENTACIÓN[cite: 1] -->
+    <section id="hero" style="margin-top: 80px;">
+        <div class="hero-content">
+            <h2>Entrenamos tu presencia. Maximizamos tu potencial.</h2>
+            <p>Somos una academia especializada en desarrollo de presencia, comunicación y personalidad digital.</p>
+            <!-- Imagen del Pájaro Mamado como principal[cite: 1] -->
+            <img src="img/logo.jpg" alt="Pájaro Mamado - Farmear Aura" style="max-width: 300px; margin: 20px 0; border-radius: 10px;">
+            <br>
+            <a href="servicios.html" class="btn-neon">CONOCÉ NUESTROS SERVICIOS</a>
+        </div>
+    </section>
+
+    <!-- 2. TIRA - NUESTROS SERVICIOS[cite: 1] -->
+    <section id="resumen-servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="tira-contenedor">
+            <article class="card-tira">
+                <h3>🗿 Desarrollo de Aura</h3>
+                <p>Entrenamiento de presencia, postura y lenguaje corporal.</p>
+            </article>
+            <article class="card-tira">
+                <h3>😎 Consultoría de Rizz</h3>
+                <p>Técnicas de comunicación, confianza y habilidades sociales.</p>
+            </article>
+            <article class="card-tira">
+                <h3>📱 Aura Digital</h3>
+                <p>Optimización de imagen y presencia en redes sociales.</p>
+            </article>
+        </div>
+        <div class="cta-tira">
+            <p>¿Querés conocer todos nuestros servicios?</p>
+            <a href="servicios.html" class="btn-neon">[ VER SERVICIOS ]</a>
+        </div>
+    </section>
+
+    <!-- 3. TIRA - NUESTROS TRABAJOS[cite: 1] -->
+    <section id="resumen-trabajos">
+        <h2>Casos de Éxito</h2>
+        <div class="tira-contenedor">
+            <article class="card-tira">
+                <h3>Kevin</h3>
+                <p><strong>NPC → Main Character</strong></p>
+                <p>Desarrollo de presencia y confianza.</p>
+            </article>
+            <article class="card-tira">
+                <h3>Brian</h3>
+                <p><strong>Rizz Negativo → Rizzler</strong></p>
+                <p>Entrenamiento de comunicación.</p>
+            </article>
+            <article class="card-tira">
+                <h3>Matías</h3>
+                <p><strong>Perfil Genérico → Aura Digital</strong></p>
+                <p>Optimización de presencia en redes.</p>
+            </article>
+        </div>
+        <div class="cta-tira">
+            <p>+127 alumnos con aura mejorada</p>
+            <a href="trabajos.html" class="btn-neon">[ VER CASOS DE ÉXITO ]</a>
+        </div>
+    </section>
+
+    <!-- 4. TIRA - QUIÉNES SOMOS[cite: 1] -->
+    <section id="resumen-nosotros">
+        <h2>Quiénes Somos</h2>
+        <p class="bajada-nosotros">Somos un equipo especializado en presencia, comunicación y desarrollo de aura. Nuestro objetivo es ayudar a cada alumno a desarrollar sus habilidades sociales y digitales mediante entrenamiento personalizado.</p>
+        
+        <div class="tira-contenedor mini-staff">
+            <article class="card-mini-staff">
+                <h3>🐦 El Pájaro</h3>
+                <p>CEO & Fundador</p>
+            </article>
+            <article class="card-mini-staff">
+                <h3>🗿 Chad Martínez</h3>
+                <p>Especialista en Rizz</p>
+            </article>
+            <article class="card-mini-staff">
+                <h3>🐺 Sigma López</h3>
+                <p>Estratega de Presencia</p>
+            </article>
+        </div>
+        <div class="cta-tira">
+            <p>Conocé al equipo detrás del aura.</p>
+            <a href="equipo.html" class="btn-neon">[ VER STAFF ]</a>
+        </div>
+    </section>
+
+    <!-- TIRA - CLIENTES CORPORATIVOS -->
+    <section id="clientes-corporativos">
+        <h2>Empresas que farmean con nosotros</h2>
+        <div class="logos no-select">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOgAAABQCAMAAAAk7slSAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAQL/vEIAwzyCf34+vYHBQft3g8wAAAzhJREFUeNrtmNu2qyAMRWsg3Lz+/9eesbV1GcPRtpuxnzKfWpCElQRBHoZhGIZhGIZhGIZhGIZhGIZhGH9CpxDdYW3y9bFh6omIx/RQYyRJ+7uy62fOP4an8LhynHn2qkcKSPCyKLqjS7c2Uc3bWPYhhDFVkwSdssMNow79gP4yVsLABQ/kU5AhAN66N4Tysy3ooEYxqP9QKCAvZfSyu5xdz24R8P+FBocHroX6l9GMNtgQRP+xUIwEPqp+mdTxKlIQClv5v7MKJ6troaSqTjcwM51jsSgGKTTSxrMEJ62zZOaeEHmlk5h5KLBeExpXX6qnRllXgSxN2Fh4i2XaFtX8jslu78RIQncvlrznLZxIWXJrw+Sf1iIipXxnlMubsyI4O8bVIfX55+8nQnfWrEEHauNYOb18PCY8kBEJ+FY672Y1bKmf1UopWwYBOfaPb4SyEJqhU6zpl+2EAAvprH1nPHo7q/QSWFbBIFS3nK+FwrRDeoT28VjZrCdZpG/ovJsVzLqfHxPeUUjD3EKoL8/KRGdfifZwfDV4XXZLEr6h871ZuZdbj4oSC+vXQucoUsi1keWQsVolTepFOG1HjhjUrCLt9OiZkccsS4rgr4ber6RQcJoPI2HVqCZULuhEo96e0SOg86sImkeM+UxodyW0dMIjKkWoV5pAqglFXu6FJojD66idUEChpdCdfCdU1n63IVd8aVG6wKWGpQsGWMLq3Qni8CPh5i+jR8iIbrOXUfc8+Ef/zqzCoijY25psLxCXWm8vAUrvZtUvmnA8AQ5thAY0tDwwaKXwU6kYAsdge4dRvxWang1QNTQ4AkLp3azC+XwbZe1Kh8F9c9bFEuuaH+qhVPfoyvXnhiBS+hLnJ/fN1wuGLqn9ZxqUXs5K7yBBhHZeDh/ebpEJXhSu/uFNEXta+w9vKJU9eolP6uQb4VBpGeFMc7ePtr9KgVK6EorvFbkakrqjwh3Wt0JjaH45JvfIfCGUUG8IpUyyZ3gsaP9QqBvG31x3uovrTuSfXxfK2ljab52BvnHuuCeifgp3F9hBWgHp2wtsXi+wO91zkhM2L4ZhGIZhGIZhGIZhGIZhGIZhGH/APz2TgLwBm7upAAAAAElFTkSuQmCC" alt="Facebook">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAABQCAMAAACHxq+UAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAQIC/7zBgECCfz3Dfr49QOndpAgAABKVJREFUaN7sltt2gyAQRYHhLur8/9d2Jax0OEC1ra/sp5hRz0YZUC0Wi8VisVgsFovFYtERt93yGzJRCU6/cK+ffifOu1eV4PfMmbagEGeI39gdak6PBMgny0RbVA0a0wu4hcQtKXxHcUUrV7hS3vc4LVeshxTiBmukwhO2b+Umn8RLcyUqlz/leksxEKzrLtPOQtGw0Fgf3JHDlbSZ53vVp8fmhKPWPA/Y0F2WWSjh5Bb9CUk8QDfSmI/WmI5xjickvAx1jJ2KbTzBX0vP889JOsYRz4hy2S2hNoad1fLdnA5l9qKv0kMzUNJKnVme0O+lNT5o41TwFkev7ETtVZL2SFob+/l9la6leRI+LtNdZg+T2sBk9u41ZxyuRAj4QjY43GCqxE46mcNK3Gd2FFgABukS4Cb5dVOP0tgNKv8gvWMr+E8A9vKB0u49IIkzWc5q3taO0h4DNXiZWizSRE2rbArYYN4Op53tGDQucwnUVNQ6dNKE0lgseGjafU910gacne1WiG4WhXZ+aOwLL2odfipNYxGlhWvpDGsqPBVsWN8UixplKvE0B9WkmTQcHlfSzptEVW4oGuiRti+GsUL6VPpMloVbaTNIy2cUAyith13U/CS9t5vLTFq2yYfSsjpPpUORP++kCeIqUpKGfiSN34pz6QTbJLb2H6V9q0r5/9LNzLBEZZA+4SPy0ZN2sus40PyDNOZbE3GXqkTYCp9JEw7f/Fc6WPyGpl6aZOY9lXbSz8+kN9jpQHq6Fd4seceVtHTCA2lMm0o7+FgeF0GnKl/tmdtyozAMQGXJ9yv//7W7JUOEXIYFFqfpTM5TM9OYE5B1MXkJoT3pIgs6hKvSuuv6u40YV5udAioHXRnvP+9JEydwEZn5rPQkpZWs1zj1FNmDVZlhNByRjtAtrq5I89VJhrCWxjzXWxnphX/qgfCYWjevxQvhwfNIkuOzn7bI60cbxL70u9KcXZP3YmLFaxtxys0ZURsVf7FDPNvSVJUxtZ/ytjmf8rahXWmXt6fHA8Vlg3hOmgteT92V3rptFval+/W0KdNMcVfKOBN97jNuDqi+sEiapXcPa/YbJp5YXeSoOiMNoTsPNPppYL7GeQMrWuAyaHvnf0uDyuLEcLa2so6VzVVS1wAlzZtx/ndu6FJy0OHS084QK5OBPWmWaUhEBduyxvMvMPJQVm1+ZA9b53pnYFnXwDFMpdmYH4e4nJDx8FJUQiyISRn4HcjxMSsYgSELN4K6T94jSPOR5A0se3uwNJ/qFQ+3YDJRQMTUEIseJM3pM3i4GzNSGpRezq3vhbiDHYB/hGK07qb1MC1dbIJx1OUM3dwQbvSQ9TwTjoFfl+Xk4T8wQS+NReM5ehSOa0JEc9G4rofsMDKkt96N5tAcnMKtTmSjWULaw2hclZ1ytQev6VuN3946N579x+JpkmhCq2AH07DkieFCFYbf6P5Vfa9eEO2qW1R/QQwkdWW219wgD4S1L0NqXWcjvBAfLhnr4EU5zA5eikvxrHJfTqfo4eWYmk8Yf69IBn4Gn8qRqCjWw3uhREbroWrfdgxUFgvFiclEiOrdbvCHDx8+PPgDll7wSutXWjkAAAAASUVORK5CYII=" alt="Amazon">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAABQCAMAAAA+0incAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAQL+AEJ/vYN/PIFCvj3Aw+qQcvAAAA6ZJREFUeNrtmdt2rCAMQLmDgOL/f+2xgImAvnSpXTMn+0mTimyghJlhBEEQBEEQBEEQBPE71nMuE5x9ICRJkh8ESZLkB/Flkn6ZRZTpDyS5Z++g9JqRt0pambGD1iFuzbpGxV5ATesTkqJG+6lyJSy2Sw+vfRyxPic5tspXlORw9TShvlRPuTsq+HslHWvQfyIZ1w2TfvyYt9sdv09yDKstgGr5HyWw53F5TUHH7pfUx6hsJJUU+pXCA/17SnJV7ZCi5DWfJ2m7DcB9mWTeZqZ2AzAzSCa+oXAIZjGtTszhkFNLFLG0rLb8Rs4jVgtjmqNMkuIHvZSWPedlh1t4ZoJrdY9kMOsGvN9ncQmSzaBKAy1FyKUclF3egWZw2K/CJgFoBdvAGfweSa6brUdm5V4SjiSA2HO2iMk2j01ajFTJeT3i0huSKReoPWby4u0lwXGUNGuVVA6zaMmPESjDR4x6QbKUQnsYdztK4gQ4LWU0VRKR+90kpa7iAWr8zLmcimTAZqZ9vKwQojwsMgau012SthpBSA2SOCULq9UTJWfPlLWh9L28YYaTlMER5BEr1FIiBnp1trveALSl8qs8bjvsTDK2tUblXH9KMb45GgboO2CrYyHBun5YsvZIwgzwM0kF3emed1UahfF2rn2P3RHVtedk82idrCG/v1iZejFKltXox+fnWha6fKwtTDnuLG5s+AyDZh+XhIJZ19JyKilhBrrnl0PpMd0J2GEFcVLleNcND/cPS9aexDrs6lQSIwj2ZczLvWZEKBXLQQp4SRIWkUrwb3ejJJuPhZP/kSR0ZNFw/0vJCVLHew/lPzDVdUO9J1m3nrrtXEuu15JLl9fHQfHS7LssVJACf2njgUt4//Xuai8leZeHU3vVnGrHpnZFzG+VEKzRddu5rpNOXUkyA+sTJzb131MVK3xImevDwHK7JHOwN5xJwhlm8lUiNs9DXqsyr6DsbCuZyk6bjp9r0qmkuF9S1q3hUtKbOgyWh9nlpBgnZXUz51bj23JEpTDtJ594aMbAwKIkDlgMIfJbJT0cqc8kYUUDreSQh3NN//rxE9mkBkls6lbJOsLyQrK36CX7PE7QGEmudxwklXtIMuDZc5Qcv7aITW7Mu8A6SbPgDzvIrNgoyZK5TdLKDThTH3/64TLfDX8TdPaYdOhyY77il+h+DMWy2WBQmBLEp2XTmJ9dbsd/3++T/8WPsCRJkiT5CZAkSRIEQRAEQRDEN/MP+Vj+olw0PVoAAAAASUVORK5CYII=" alt="Microsoft">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAABQCAMAAACzv26IAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAQL+A7xAwn99gUM8gr49wTuk25wAABBxJREFUaN7tWtt2hCAM3HC/qv//tW13gYgJ7tqeU31wntoV4pAOYbL0cePGjRs3bty4sYcwieUFYb1+XBhg1dIhh8c/wYgnzOfjFwr3T3RheQI+G62nhYdgxXAqWROXERQX4UyyRi078HTCGWQpV2Vn0N+Tw+TaR4zszyOLXJ1fBxBjrqeR1a6mcN6G+HnC1oPTyObCNRq6DjsQ7FlkQ+XK1qiBBs4i64pcD9XTk8j6kthjKTyDLCZWHgt+AllUrDoognPI2l8lFqS0Vs4D6SQvpZAyJL5SBvkDMySL7xBZ+kRVkA45ydV5lwiXGW1G9HRyxgOoGkOGbJpUc1L4YYn6OVWdlw6T7mWliMUcThZFg5Ts3EXJukv/9HlaFbG8plPVFnbHLymerM78KyTrqxJQmFroENTocEbT7ng7nqygr0iVLN2FcqFw49cpQ/LKsU1kMk+WawPiMbJLZ3kmSCm0TRCL0poYPTzAtwQV3YrVZBPsiCy0RZrvBcryDnmYrMRN1cSFMtJq01oEtS7ifrNdTGTI4ppiqTOpDEuHyCIbTzaUW81ymoh0LkWyl7COHFlAW7WtAQGT/J7sXFLTxmEeArIxtNZHPCrFA2E4srbsqDrGVvG08XljbsQaJQGNGGauW7fBzJHMJ/ypf0rJunX2fOw6wUZ7DFlDEjZYrUTLe+KsR6jjYm+WKVldopRTrMFJ3dqE8NY+iBraD5Zii3p7NJmxelOELNQoIXdn3brKi7cmcho4o4Ai4QKJwlGzk8WAbJwdMlVTqltyYaNQVfoBWfiMLBwg2yF6TUQ+sjK4rX6X2Xg4sx1sPyEt+14GWr3QVLN4OFbxqj9rFuFmPbDfbM+NB0FoofN+NTB/rQYVOezQWWbuYUSV1MqR+DqbsLJRDR2ts0vZVARha3IRxq33ny/DmMUYPMGAhhYHTrCJ1lLj8Df0ZMpz39mioBUmj/EGnthbU83EAW+QSBTtujxa1PRk6pBm4tBVyM2fIMXOBLrNkmeFS6GuCxzvunL1bl1vogLfjQghbTEEWwcUW6MYALxtMzZ6chIAZCMDqF+cLAZ+Fj26mAEA209DlICgXMedgt6NIg92Cp4d5IddKektebZEXvbPPdiI7bT9dpOD8rQ+INDSD3MryeTd7pay5Q+BZClVqd9d60jm+2dEhJ3JNhCy/DUXez+mZ7FmannjmCaHO4nWbp9RQZ5OtqrODYWi4i7tIH9ydQhBPgFIg8J4+Q1v+KcaXhE0//j5dDYtn2I/ylUuZX0he02AZzzU9LggtHe9kdGq7PTr4bWzIm3friLKNcTmjEETd0GY/hYz5eYcrgjZCrjI4qdUX7oW9MfSNW5ehtCRM0GXxdZ9uAtz3fgcJa+qgQqY4iup+dr/inXjxo0bN27cuDq+ADkXseB/A87FAAAAAElFTkSuQmCC" alt="Google">
+            <img src="data:image/png;base64,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" alt="Nestle">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAABQCAMAAAAgGxlvAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAv0DvgBBgn1AgrzDP349wnT76FwAABK1JREFUeNrtm+u2oyAMheUqCCrv/7TjFHQHqL0Mq2t1KvvXsWLMRyBB9AxdXV1dXV1dXV1dXf+xpAhBSDX8vpZw0zj8vkLS8PuaI6kYfl8sorLh93Uh1PE6aUlGVDn8vi6EaiKqGX5fPKLy0/NR9vjB8ihVNlEPLbihTe8aV5y/irq7Lsq0JUMxDviTRcgHU/y5cbP57d3dxkVInA9B3GCmeN6X1SksQ9Iaj6dvQrW3CIm1bFyHZI0tHUBC1h7mUa7Wb0KddifVY1TFAgLl0t8cw7WA9/HQfRPq4aQwA8TKtkZkNAJBw1SlbMnm8JWoISzqDFUtASJjYcTQSNJZmKevQhUBmh2mGk2wbg6QIFnHV0bGLMz6q1A1YcX6SE1bSBSGJyR0XUscTvsszPZmy8iJ/dVi1D1v3FEFzbi1mtbUSunp7yG6K9piN0mDH48KrtbtjD5mz62hpldLGjNvqxTtadxl8iPLSzqeI/Bz/OXvuYn2k7yDytKfzme9uYr9ngeV9g9s8cGIFK0qeJAmsMJUZReguiykK4b7zACvjtHMQi6vzlAduZFONnGI/oOYylBjh5+hAhYuTUUxgmVdPxAs8IGNMG0qj8F6guqzieSy64SFK1SM2tLiMSrEGRILBF8Zz5uTm9loM9JPpCPUAU0ka9Ra4Cbdv1bNNLE1h2eokB0xAkum0Z4UKcTQxJYzCVQayl7yTYtIFDXqc9m9S1m0tc8o6spLqIAVQtcpWlSgcNAdW6lKwSuB0c2Oi11iNWeoUg12ylI994HmBCZLW65A9czLMgO3ilZOljp43kksmKhWzO8SFaPRZ/NT4Rkq14KYAVXajxRtDr93Z6Z4v2OCnlzCKlRKYxBH0qOstoWLyMz9CCrs8f0+Mv2CP2jhj/E5RzWpLWYnQZoxyfRmK+S2gP0ZVLYnGbm7xvdfGAYXWUQ8QbV1vqsPsYioUfnHUJfdw2nv9iMvCdwaa6DHqGDz56hurmzRJp9BxaTiEWyEl9ySosJFeBOVnaJq2HgDtbXYIIbSIiWk9RJH2cdqTzC2tKHyQGzJl1FblxCI4WQw03T8RSKFHkuwWACbUOespDSgni0Ml2xhWJ/xEhnSxZbTUd0dNhKbUU2K6Ga3CdW8u9zHZGWkf0Skp0/wONuGigeMN1GbH+IwWQWp3gxtx3ozwjahsqyk8OeoPgepH83d00fzQ+SErfYrdP3uRzajotvG56jBNm+4VNMYixlTwMt0WsWk1YQ64RLYuo8qsA2g1Mk2Gr+/jcZnyopequa3yuDRwhtuxsa6uu6Xb7amB3UVJsqCEqDxfHP08BMmKdhKPqJA9sCDSa5/Q7XUxGPUlaI2bXnX2dkN5Vg3xXE76rC8jEp7mDe9yEhC2RT1TdQxEyBvmlCVp4ya2Kq81QS16fUUpGt6USR6xGJRCdz+G+qgFroxOp6j0mTL2146QlYyxiQ1p/SYb0jbhYkws9XeEtx2crF424st72ijPuT00C1sczZtipu/N7JZE8iuTATBYlM4Z8zrr5J/7rPDA/X3daHPPi70Mc+FUC/04d2FPqe8EOqFPn2+0AftF0pLF/rnk66urq6urq6urq4X9AdvgNIdaDwxWQAAAABJRU5ErkJggg==" alt="Walmart">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAABQCAMAAAA+0incAAAAM1BMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPKmszLAAAAEHRSTlMAQL+AEJ/vYN/PIFCvj3Aw+qQcvAAAA6ZJREFUeNrtmdt2rCAMQLmDgOL/f+2xgImAvnSpXTMn+0mTimyghJlhBEEQBEEQBEEQBPE71nMuE5x9ICRJkh8ESZLkB/Flkn6ZRZTpDyS5Z++g9JqRt0pambGD1iFuzbpGxV5ATesTkqJG+6lyJSy2Sw+vfRyxPic5tspXlORw9TShvlRPuTsq+HslHWvQfyIZ1w2TfvyYt9sdv09yDKstgGr5HyWw53F5TUHH7pfUx6hsJJUU+pXCA/17SnJV7ZCi5DWfJ2m7DcB9mWTeZqZ2AzAzSCa+oXAIZjGtTszhkFNLFLG0rLb8Rs4jVgtjmqNMkuIHvZSWPedlh1t4ZoJrdY9kMOsGvN9ncQmSzaBKAy1FyKUclF3egWZw2K/CJgFoBdvAGfweSa6brUdm5V4SjiSA2HO2iMk2j01ajFTJeT3i0huSKReoPWby4u0lwXGUNGuVVA6zaMmPESjDR4x6QbKUQnsYdztK4gQ4LWU0VRKR+90kpa7iAWr8zLmcimTAZqZ9vKwQojwsMgau012SthpBSA2SOCULq9UTJWfPlLWh9L28YYaTlMER5BEr1FIiBnp1trveALSl8qs8bjvsTDK2tUblXH9KMb45GgboO2CrYyHBun5YsvZIwgzwM0kF3emed1UahfF2rn2P3RHVtedk82idrCG/v1iZejFKltXox+fnWha6fKwtTDnuLG5s+AyDZh+XhIJZ19JyKilhBrrnl0PpMd0J2GEFcVLleNcND/cPS9aexDrs6lQSIwj2ZczLvWZEKBXLQQp4SRIWkUrwb3ejJJuPhZP/kSR0ZNFw/0vJCVLHew/lPzDVdUO9J1m3nrrtXEuu15JLl9fHQfHS7LssVJACf2njgUt4//Xuai8leZeHU3vVnGrHpnZFzG+VEKzRddu5rpNOXUkyA+sTJzb131MVK3xImevDwHK7JHOwN5xJwhlm8lUiNs9DXqsyr6DsbCuZyk6bjp9r0qmkuF9S1q3hUtKbOgyWh9nlpBgnZXUz51bj23JEpTDtJ594aMbAwKIkDlgMIfJbJT0cqc8kYUUDreSQh3NN//rxE9mkBkls6lbJOsLyQrK36CX7PE7QGEmudxwklXtIMuDZc5Qcv7aITW7Mu8A6SbPgDzvIrNgoyZK5TdLKDThTH3/64TLfDX8TdPaYdOhyY77il+h+DMWy2WBQmBLEp2XTmJ9dbsd/3++T/8WPsCRJkiT5CZAkSRIEQRAEQRDEN/MP+Vj+olw0PVoAAAAASUVORK5CYII=" alt="L'Oreal">
+        </div>
+    </section>
+
+    <!-- Pie de página (Footer)[cite: 1, 3] -->
+    <footer>
+        <p>&copy; 2026 Academia de Aura. Todos los derechos reservados.</p>
+        <p>Contacto: farmear@aura.com | Sede central: Gimnasio del Pájaro</p>
+    </footer>
+
+</body>
+</html>
