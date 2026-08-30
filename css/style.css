@@ -1384,3 +1384,519 @@ footer a:hover {
     box-shadow:
         0 8px 20px rgba(0, 184, 217, 0.22);
 }
+
+
+
+/* =========================================
+   RESPONSIVE - TABLETS
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    header {
+        padding: 12px 25px;
+    }
+
+    nav ul {
+        gap: 18px;
+    }
+
+    #hero {
+        padding: 80px 25px;
+    }
+
+    #hero h2 {
+        font-size: 2.7em;
+    }
+
+    section {
+        padding: 75px 25px;
+    }
+
+    section h2 {
+        font-size: 2.1em;
+    }
+
+    .tira-contenedor,
+    .servicios-grid {
+        gap: 20px;
+    }
+
+    .logos {
+        gap: 35px;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE - CELULARES
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    /* -----------------------------------------
+       ESTRUCTURA GENERAL
+       ----------------------------------------- */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        padding-top: 112px;
+    }
+
+    section {
+        width: 100%;
+        padding: 55px 18px;
+    }
+
+
+    /* -----------------------------------------
+       HEADER
+       ----------------------------------------- */
+
+    header {
+        min-height: 112px;
+        padding: 10px 15px;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 7px;
+    }
+
+    #logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+    }
+
+    #logo-container img {
+        width: 42px;
+        height: 42px;
+    }
+
+    header h1 {
+        font-size: 1.15em;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px 16px;
+
+        flex-wrap: wrap;
+    }
+
+    nav ul li a {
+        font-size: 0.85em;
+    }
+
+
+    /* -----------------------------------------
+       HERO
+       ----------------------------------------- */
+
+    #hero {
+        min-height: calc(100svh - 112px);
+
+        padding: 55px 18px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero h2 {
+        font-size: clamp(1.9rem, 8vw, 2.5rem);
+
+        line-height: 1.15;
+
+        letter-spacing: -0.8px;
+
+        margin-bottom: 15px;
+    }
+
+    #hero p {
+        max-width: 100%;
+
+        font-size: 1em;
+
+        line-height: 1.6;
+
+        margin-bottom: 25px;
+    }
+
+    #hero img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* -----------------------------------------
+       TÍTULOS DE SECCIÓN
+       ----------------------------------------- */
+
+    section h2 {
+        font-size: clamp(1.7rem, 7vw, 2rem);
+
+        line-height: 1.2;
+
+        margin-bottom: 18px;
+    }
+
+    .bajada-nosotros,
+    .bajada-servicios {
+        width: 100%;
+        max-width: 100%;
+
+        font-size: 1em;
+
+        line-height: 1.6;
+
+        margin-bottom: 30px;
+    }
+
+
+    /* -----------------------------------------
+       CONTENEDORES / GRIDS
+       ----------------------------------------- */
+
+    .tira-contenedor,
+    .servicios-grid,
+    .contacto-grid,
+    .logos {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: stretch;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+
+    /* -----------------------------------------
+       TARJETAS
+       ----------------------------------------- */
+
+    .card-tira,
+    .card-mini-staff,
+    .perfil-staff,
+    .card-servicio,
+    .ficha-alumno {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto;
+    }
+
+    .card-tira {
+        padding: 23px 20px;
+    }
+
+    .card-mini-staff {
+        padding: 20px;
+    }
+
+    .perfil-staff {
+        padding: 25px 20px;
+    }
+
+    .card-servicio {
+        padding: 23px 20px;
+
+        text-align: left;
+    }
+
+    .ficha-alumno {
+        padding: 20px;
+
+        font-size: 0.95em;
+    }
+
+
+    /* -----------------------------------------
+       STAFF
+       ----------------------------------------- */
+
+    #descripcion-empresa {
+        padding: 70px 18px 40px;
+    }
+
+    #descripcion-empresa p {
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    #staff-grid {
+        padding: 55px 18px;
+    }
+
+    .perfil-staff img {
+        width: 125px;
+        height: 125px;
+    }
+
+
+    /* -----------------------------------------
+       NIVELES DE AURA
+       ----------------------------------------- */
+
+    #niveles-aura {
+        padding: 55px 18px;
+    }
+
+    .escalera-niveles {
+        margin: 30px 0;
+    }
+
+    .nivel-box {
+        width: 100%;
+        max-width: 280px;
+
+        padding: 14px 20px;
+    }
+
+    .flecha {
+        margin: 8px 0;
+    }
+
+
+    /* -----------------------------------------
+       PORTFOLIO
+       ----------------------------------------- */
+
+    #portfolio-alumnos {
+        padding: 55px 18px;
+    }
+
+    .antes-despues p {
+        font-size: 0.85em;
+    }
+
+    .stats {
+        padding: 12px;
+    }
+
+    meter {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    /* -----------------------------------------
+       CONTACTO
+       ----------------------------------------- */
+
+    #seccion-contacto {
+        padding: 65px 18px 50px;
+    }
+
+    .contacto-grid {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .info-contacto,
+    .formulario-container {
+        width: 100%;
+        min-width: 0;
+
+        padding: 23px 20px;
+    }
+
+    .info-contacto h3,
+    .formulario-container h3 {
+        margin-bottom: 20px;
+    }
+
+
+    /* -----------------------------------------
+       FORMULARIOS
+       ----------------------------------------- */
+
+    form input,
+    form textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    form textarea {
+        min-height: 120px;
+    }
+
+
+    /* -----------------------------------------
+       BOTONES
+       ----------------------------------------- */
+
+    .btn-neon,
+    .btn-enviar,
+    .btn-medir {
+        max-width: 100%;
+    }
+
+    .btn-neon {
+        padding: 12px 18px;
+    }
+
+
+    /* -----------------------------------------
+       CLIENTES CORPORATIVOS
+       ----------------------------------------- */
+
+    #clientes-corporativos {
+        padding: 55px 18px;
+    }
+
+    #clientes-corporativos h2 {
+        font-size: 1.75em;
+        margin-bottom: 30px;
+    }
+
+    .logos {
+        flex-direction: row;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 25px;
+    }
+
+    .logos img {
+        max-width: 120px;
+        height: 28px;
+    }
+
+
+    /* -----------------------------------------
+       VIDEOS
+       ----------------------------------------- */
+
+    #archivos-video {
+        padding: 55px 18px;
+    }
+
+    .video-card {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 20px;
+
+        margin-bottom: 25px;
+    }
+
+    .video-wrapper {
+        width: 100%;
+    }
+
+
+    /* -----------------------------------------
+       FOOTER
+       ----------------------------------------- */
+
+    footer {
+        padding: 30px 18px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE - CELULARES PEQUEÑOS
+   ========================================= */
+
+@media (max-width: 450px) {
+
+    body {
+        padding-top: 108px;
+    }
+
+    header {
+        min-height: 108px;
+    }
+
+    #logo-container img {
+        width: 38px;
+        height: 38px;
+    }
+
+    header h1 {
+        font-size: 1.05em;
+    }
+
+    nav ul {
+        gap: 7px 12px;
+    }
+
+    nav ul li a {
+        font-size: 0.78em;
+    }
+
+    #hero {
+        min-height: calc(100svh - 108px);
+        padding: 45px 15px;
+    }
+
+    #hero h2 {
+        font-size: 1.8rem;
+    }
+
+    #hero p {
+        font-size: 0.95em;
+    }
+
+    section {
+        padding: 45px 15px;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    .card-tira,
+    .card-mini-staff,
+    .perfil-staff,
+    .card-servicio,
+    .ficha-alumno,
+    .info-contacto,
+    .formulario-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .btn-neon,
+    .btn-enviar,
+    .btn-medir {
+        width: 100%;
+    }
+
+    .logos img {
+        max-width: 100px;
+        height: 25px;
+    }
+}
