@@ -1901,3 +1901,87 @@ footer a:hover {
     }
 }
 
+
+
+/* =========================================
+   DISEÑO ZIGZAG (Casos de Éxito)
+   ========================================= */
+.caso-fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 80px; /* Separación vertical entre cada fila[cite: 1] */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Esta clase es la magia que invierte la caja 2 y 4 */
+.caso-fila.reversa {
+    flex-direction: row-reverse;
+}
+
+.caso-mitad {
+    flex: 1;
+}
+
+.caso-mitad .ficha-alumno {
+    width: 100%; /* La tarjeta ocupa toda su mitad[cite: 1] */
+    margin: 0;
+}
+
+.caso-imagen img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Media Query para que en celulares vuelva a verse en una sola columna */
+@media (max-width: 768px) {
+    .caso-fila, .caso-fila.reversa {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* =========================================
+   DISEÑO DEL HERO (PC)
+   ========================================= */
+.hero-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-texto {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* =========================================
+   MEDIA QUERIES (Celulares)
+   ========================================= */
+@media (max-width: 768px) {
+    /* Rompe el diseño lado a lado y lo apila verticalmente */
+    .hero-contenedor {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    /* Centra el texto en la pantalla chica */
+    .hero-texto {
+        text-align: center;
+    }
+}
